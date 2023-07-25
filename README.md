@@ -1,6 +1,6 @@
 # QR Code Generator in Rust compiled to WASM for ESP32-S3 running esp-wasmachine
 
-This examples demonstrates an option to compile Rust application into WASM and run it on ESP32-S3
+This examples demonstrates an option to compile Rust application into WASM and run it on ESP32-S3-BOX
 which is running [esp-wasmachine](https://github.com/espressif/esp-wasmachine).
 
 ## Getting started
