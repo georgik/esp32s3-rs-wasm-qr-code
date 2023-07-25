@@ -1,0 +1,18 @@
+
+[package]
+name = "qrcode"
+version = "0.1.0"
+edition = "2018"
+
+# Optimize the size of the binary, without optimization the binary has 2MB
+[profile.release]
+opt-level = 'z'
+lto = true
+codegen-units = 1
+panic = 'abort'
+
+
+[dependencies]
+qrcode = "0.12.0"
+console = "0.15.7"
+
